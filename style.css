@@ -14,7 +14,6 @@ h2 {
 }
 
 .landing {
-  /* background-image: url('./img/pexels-chan-walrus-941869.jpg'); */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -34,12 +33,12 @@ h2 {
 .slideshow-image {
   position: absolute;
   top: 0;
-  left: 100%; /* Start off the screen */
+  left: 100%;
   width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
-  animation: slideFromRight 5s linear infinite; /* Adjust duration and timing function */
+  animation: slideFromRight 5s linear infinite;
 }
 
 @keyframes slideFromRight {
@@ -82,7 +81,6 @@ nav {
   flex: 2;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
   margin: 10px;
 }
 nav a {
